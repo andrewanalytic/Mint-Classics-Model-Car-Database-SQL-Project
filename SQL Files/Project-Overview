@@ -1,0 +1,7 @@
+-- Project Overview
+-- To support data-based decision making, Mint Classics aims to analyze inventory data to provide recommendations for reducing or reorganizing inventory.
+
+-- Analysis Methodology
+-- 1. Imported Mint Classics Database into MySQL Workbench.
+-- 2. Selected relevant tables for analysis: Products, Warehouses, Orders, OrderDetails, and ProductLines.
+-- 3. Conducted basic summary statistics queries.
