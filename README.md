@@ -19,7 +19,9 @@ The Mint Classics project involves analyzing data from a fictional classic car m
 
 ## Analysis Methodology:
   _ Database Import and Exploration: Import the Mint Classics database into MySQL Workbench and explore the tables to understand the data schema.
+  
   _ Basic Summary Statistics: Run SQL queries to gather key summary statistics, such as total products, product categories, highest and lowest inventory quantities, and warehouse inventory distribution.
+  
   _ Answering Major Questions
 
 
@@ -28,14 +30,17 @@ The Mint Classics project involves analyzing data from a fictional classic car m
 
 #### **Question 1: Inventory-Sales Relationship**
 **Findings:** Trains and Classic Cars product lines exhibit low sales percentages relative to stocked quantities. Further investigation into individual product performance within these lines is recommended.
+
 **Recommendation:** Optimize inventory levels based on sales performance to ensure alignment with customer demand.
 
 #### **Question 2: Stagnant Products**
 **Findings:** Several products have high inventory-to-order ratios, indicating excessive stock levels. Liquidating excess inventory for these products could free up space and capital.
+
 **Recommendation:** Refrain from restocking products with excessive remaining stock to optimize inventory space and reduce holding costs.
 
 #### **Question 3: Warehouse Efficiency**
 **Findings:** Warehouse D demonstrates high sales-to-inventory ratio and efficient capacity utilization. In contrast, Warehouse C operates at suboptimal capacity.
+
 **Recommendation:** Consider consolidating inventory from Warehouse C to Warehouse B, capitalizing on underutilized space and reducing operational costs.
 
 
